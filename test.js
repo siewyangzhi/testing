@@ -1,5 +1,4 @@
-list = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'];
-let concatenated = list[0];
-for (let i = 1; i < list.length; i++) {
-  concatenated += `,${list[i]}`;
-}
+const coords = getCoordinates();
+const x = coords[0];
+const y = coords[1];
+const z = coords[2];
